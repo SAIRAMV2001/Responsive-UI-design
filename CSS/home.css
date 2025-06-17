@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap');
+    html{
+      scroll-behavior: smooth;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    .page1{
+        max-height: 100%;
+    }
+
+    body {
+      font-family: "Poppins", sans-serif;   
+      line-height: 1.6;
+      background: #fff;
+      color: #333;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items:center;
+      padding: 20px 5%;
+      background: #fff;
+
+    }
+
+    nav a {
+      margin: 10px 10px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    .main {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px 5%;
+      background-image: url(/ASSEST/PICS/Home/background.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 10px;
+    }
+
+    .main-text {
+      max-width: 500px;
+    }
+
+    .main-text h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .main-text p {
+
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    .main-img img {
+      max-width: 100%;
+      
+    }
+
+    .logos {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      background-color: #f8f9ff;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 28px;
+      font-weight: 700;
+      padding-top: 50px;
+    }
+
+    .section-content{
+        color:#808080;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+      }
+
+    .frames{
+        /* width: 1524; */
+        /* height: 554; */
+        padding: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #F0F3FF;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+      }
+
+    .frames  :hover{
+        transform: scale(1.1);
+        transition: transform 0.4s ease-in-out;
+        cursor: pointer;  
+        filter: drop-shadow(0 4px 6px rgba(0,0,0,0.2));
+     
+    }
+    /* .frames img{
+      width: 25%;
+    } */
+
+    .pvt{
+        font-weight: 600;
+        font-size: 12px;
+        color: #212529;
+    }
+
+    .employee{
+        font-weight: 700;
+        font-size: 28px;
+        text-align: center;
+        padding-top: 20px;
+
+    }
+    
+    .flex_right{
+      display: flex;
+      justify-content:space-between;
+      text-align: right;
+      margin: 25px;
+      padding:25px;
+      padding-left: 100px;
+      padding-right: 100px;
+      border-radius: 10px;
+      box-shadow: 18px 15px 15px 18px #B8C6FF40;
+    }
+
+    .flex_left{
+
+      display: flex;
+      justify-content:space-between;
+      text-align:left;
+      margin: 25px;
+      padding:25px;
+      padding-left: 100px;
+      padding-right: 100px;
+      border-radius: 10px;
+      box-shadow: 18px 15px 15px 18px #B8C6FF40;
+    }
+
+    .top{ 
+      font-weight: 700;
+      font-size: 17px;
+      color: #212529;
+    }
+    
+    .firstline{
+      font-weight: 700;
+      font-size: 20px;
+      color:#FFC035;
+    }
+
+    .secline{
+      font-weight: 600;
+      font-size: 12px;
+      color: #808080;
+    }
+
+    
+    .explore{
+      font-weight: 600;
+      font-size: 17px;
+      padding-top: 100px;
+    }
+
+    .explore a{
+      text-decoration: none;
+    }
+
+    #flex_pic{
+        width: 50%;
+    }
+    .demo_button{
+        display: flex;
+        justify-content:space-around;
+        background-image: url(/ASSEST/PICS/Home/foot_background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px;
+        border-radius: 10px;
+        margin: 10px;
+
+    }
+
+    #demo_note{
+        font-weight: 700;
+        font-size: 28px;
+        color: #212529;
+
+    }
+
+    .tel a{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 17px;
+        color:#212529
+    }
+
+    .reach_out{
+        display: flex;
+        justify-content:space-around;
+        margin: 20px;
+    }
+
+    .contact {
+        display: flex;
+        gap: 50px;
+        margin-top: 20px;
+    }
+
+    .contact a:hover{
+        transform: scale(1.1);
+        transition: transform 0.4s ease;
+        cursor: pointer;  
+    }
+
+    .location p{
+        padding-left: 20px;
+    }
+
+    .custom_line {
+    width: 90%;
+    margin: 20px auto;
+    border-top: 1px solid #808080;
+  }
+
+  .page4 a{
+    text-decoration: none;
+    color: #A1A8B0;
+  }
+
+  .page4{
+    display:flex;
+    gap: 40px;
+    justify-content: center;
+    margin: 20px;
+    font-weight: 600;
+    font-size: 17px;
+
+  }
+
+  .page4 a:hover{
+            transform: scale(1.1);
+        transition: transform 0.4s ease;
+        cursor: pointer; 
+  }
+    
+    
+    footer {
+      text-align: center;
+      background-color: #F3F5F9;
+      padding: 30px;
+    
+    }
+
+          @media (max-width: 768px) {
+      body{
+        display: flex;
+        justify-content:space-around;
+      }
+      .main {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .main-text h1 {
+        font-size: 2rem;
+      }
+
+      /* nav {
+        display: none;
+    } */
+    #demo_note{
+        font-size: medium;
+        padding-left: 100px;
+    }
+
+}
+
